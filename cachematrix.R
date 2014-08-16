@@ -14,7 +14,7 @@ makeCacheMatrix <- function(x = matrix()) {
     # This returns original matrix.
     get <- function() x
 
-    # This sets inverted matrix as cache value.
+    # This sets inverted matrix as cached value.
     setmatrix <- function(mx) m <<- mx
 
     # This returns inverted matrix.
